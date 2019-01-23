@@ -1,0 +1,32 @@
+.d-block {
+    display: block;
+}
+.d-none {
+    display: none;
+}
+.d-flex {
+    display: flex;
+}
+.d-inline {
+    display: inline;
+}
+
+.shadow {
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,.05);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.05);
+}
+
+.float-right {
+    float: right;
+}
+.float-left {
+    float: left;
+}
+.clearfix {
+    float: none;
+}
+
+.table-action {
+    width: 1%;
+    white-space: nowrap;
+}

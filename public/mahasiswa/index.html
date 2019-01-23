@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Menu utama</title>
+  <meta name="description" content="Free Bootstrap Theme by BootstrapMade.com">
+  <meta name="keywords" content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
+
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans|Candal|Alegreya+Sans">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/imagehover.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/w3.css">
+ 
+</head>
+<body>
+  <!--Navigation bar-->
+  <div class="w3-sidebar w3-bar-block" style="width: 15%">
+  	<h3 class="w3-bar-item">Menu</h3>
+    <button onclick="myFunction('prak1')" class="w3-button w3-block w3-left-align w3-green">Praktikum 1</button>
+      <div id="prak1" class="w3-hide w3-container">
+        <li><a href="#" class="klik_menu" id="materiprak1">Materi</a></li>
+        <li><a href="#" class="klik_menu" id="videoprak1">Video</a></li>
+        <li><a href="#" class="klik_menu" id="tesprak1">Test</a></li>
+        <li><a href="#" class="klik_menu" id="nilaipraktikum1">Nilai</a></li>
+      </div>
+    <button onclick="myFunction('prak2')" class="w3-button w3-block w3-left-align w3-green">Praktikum 2</button>
+      <div id="prak2" class="w3-hide w3-container">
+        <li><a href="#" class="klik_menu" id="materiprak2">Materi</a></li>
+        <li><a href="#" class="klik_menu" id="videoprak2">Video</a></li>
+        <li><a href="#" class="klik_menu" id="tesprak2">Test</a></li>
+        <li><a href="#" class="klik_menu" id="nilaipraktikum2">Nilai</a></li>
+      </div>
+    <button onclick="myFunction('prak3')" class="w3-button w3-block w3-left-align w3-green">Praktikum 3</button>
+      <div id="prak3" class="w3-hide w3-container">
+        <li><a href="#" class="klik_menu" id="materiprak3">Materi</a></li>
+        <li><a href="#" class="klik_menu" id="videoprak3">Video</a></li>
+        <li><a href="#" class="klik_menu" id="tesprak3">Test</a></li>
+        <li><a href="#" class="klik_menu" id="nilaipraktikum3">Nilai</a></li>
+      </div>
+    <button onclick="myFunction('prak4')" class="w3-button w3-block w3-left-align w3-green">Praktikum 4</button>
+      <div id="prak4" class="w3-hide w3-container">
+        <li><a href="#" class="klik_menu" id="materiprak4">Materi</a></li>
+        <li><a href="#" class="klik_menu" id="videoprak4">Video</a></li>
+        <li><a href="#" class="klik_menu" id="tesprak4">Test</a></li>
+        <li><a href="#" class="klik_menu" id="nilaipraktikum4">Nilai</a></li>
+      </div>
+    <button onclick="myFunction('prak5')" class="w3-button w3-block w3-left-align w3-green">Praktikum 5</button>
+      <div id="prak5" class="w3-hide w3-container">
+        <li><a href="#" class="klik_menu" id="materiprak5">Materi</a></li>
+        <li><a href="#" class="klik_menu" id="videoprak5">Video</a></li>
+        <li><a href="#" class="klik_menu" id="tesprak5">Test</a></li>
+        <li><a href="#" class="klik_menu" id="nilaipraktikum5">Nilai</a></li>
+      </div>
+  	<button onclick="myFunction('prak6')" class="w3-button w3-block w3-left-align w3-green">Praktikum 6</button>
+      <div id="prak6" class="w3-hide w3-container">
+        <li><a href="#" class="klik_menu" id="materiprak6">Materi</a></li>
+        <li><a href="#" class="klik_menu" id="videoprak6">Video</a></li>
+        <li><a href="#" class="klik_menu" id="tesprak6">Test</a></li>
+        <li><a href="#" class="klik_menu" id="nilaipraktikum6">Nilai</a></li>
+      </div>
+
+  </div>
+  <div style="margin-left: 15%">
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">Mesin<span> Listrik</span></a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#feature">Petunjuk</a></li>
+          <li><a href="#profil">Profil</a></li>
+          <li><a href="#pricing">Logout</a></li>
+         
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--/ Navigation bar-->
+
+  <div class="badan">
+  
+  </div>
+ <!--Banner-->
+
+  <!--Footer-->
+  <footer id="footer" class="footer">
+    <div class="container text-center">
+      ©2018 Virtual Lab
+    </div>
+  </footer>
+  <!--/ Footer-->
+</div>
+  <script>
+function myFunction(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="contactform/contactform.js"></script>
+
+</body>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.klik_menu').click(function(){
+      var menu = $(this).attr('id');
+      if(menu == "materiprak1"){
+        $('.badan').load('materi/materijobsheet1.php');           
+      }else if(menu == "videoprak1"){
+        $('.badan').load('video/materivideo1.php');            
+      }else if(menu == "tesprak1"){
+        $('.badan').load('test/testpraktikum1.php');            
+      }else if(menu == "nilaipraktikum1"){
+        $('.badan').load('nilai/nilaipraktikum1.html');            
+      }else if(menu == "materiprak2"){
+        $('.badan').load('materi/materijobsheet2.php');            
+      }else if(menu == "videoprak2"){
+        $('.badan').load('video/materivideo2.php');            
+      }else if(menu == "tesprak2"){
+        $('.badan').load('test/testpraktikum2.php');            
+      }else if(menu == "nilaipraktikum2"){
+        $('.badan').load('nilai/nilaipraktikum2.html');            
+      }else if(menu == "materiprak3"){
+        $('.badan').load('materi/materijobsheet3.php');            
+      }else if(menu == "videoprak3"){
+        $('.badan').load('video/materivideo3.php');            
+      }else if(menu == "tesprak3"){
+        $('.badan').load('test/testpraktikum3.php');            
+      }else if(menu == "nilaipraktikum3"){
+        $('.badan').load('nilai/nilaipraktikum3.html');            
+      }else if(menu == "materiprak4"){
+        $('.badan').load('materi/materijobsheet4.php');            
+      }else if(menu == "videoprak4"){
+        $('.badan').load('video/materivideo4.php');            
+      }else if(menu == "tesprak4"){
+        $('.badan').load('test/testpraktikum4.php');            
+      }else if(menu == "nilaipraktikum4"){
+        $('.badan').load('nilai/nilaipraktikum4.html');            
+      }else if(menu == "materiprak5"){
+        $('.badan').load('materi/materijobsheet5.php');            
+      }else if(menu == "videoprak5"){
+        $('.badan').load('video/materivideo5.php');            
+      }else if(menu == "tesprak5"){
+        $('.badan').load('test/testpraktikum5.php');            
+      }else if(menu == "nilaipraktikum5"){
+        $('.badan').load('nilai/nilaipraktikum5.html');            
+      }else if(menu == "materiprak6"){
+        $('.badan').load('materi/materijobsheet6.php');            
+      }else if(menu == "videoprak6"){
+        $('.badan').load('video/materivideo6.php');            
+      }else if(menu == "tesprak6"){
+        $('.badan').load('test/testpraktikum6.php');            
+      }else if(menu == "nilaipraktikum6"){
+        $('.badan').load('nilai/nilaipraktikum6.html');            
+      }
+    });
+ 
+ 
+    // halaman yang di load default pertama kali
+    $('.badan').load('home1.php');           
+ 
+  });
+</script>
+
+</html>
